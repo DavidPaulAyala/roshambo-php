@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="/css/styles.css">
+        <title>Ro Sham Bo</title>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Ro Sham Bo</h1>
+
+            <form action='/results' method='post'>
+                <h3>Player 1</h3>
+                <input type="radio" name="player1" value="Rock" checked> Rock<br>
+                <input type="radio" name="player1" value="Paper"> Paper<br>
+                <input type="radio" name="player1" value="Scissors"> Scissors<br>
+                <input type='hidden' name="computer" value="true">
+                <button type='submit'>Play!</button>
+            </form>
+        </div>
+    </body>
+</html>
